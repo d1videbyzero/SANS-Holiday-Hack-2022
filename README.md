@@ -1,5 +1,5 @@
 # SANS Holiday Hack 2022 Writeup
-## 1 - KringleCon Orientation
+### 1 - KringleCon Orientation
 Following the instructions you're given is enough to complete this challenge :).
 
 ## Recover the Tolkien Ring
@@ -331,6 +331,7 @@ Flag: oI40zIuCcN8c3MhKgQjOMN8lfYtVqcKT
 ---
 
 ## Recover the Web Ring
+### 8 - Boria pcap mining
 ### 8.1 - Naughty IP
 Load the victim.pcap file, and filter for HTTP traffic. By simply browsing the traffic in chronological order, we can see that a specific IP address seems to be fuzzing different URLs on the website such as /mail, /members, /nav and more.
 
